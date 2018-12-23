@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b05a6f24-23f8-457e-9382-0fd3eb82de4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tuples.py">
+        <entry file="file://$PROJECT_DIR$/set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -61,6 +61,7 @@
         <option value="$PROJECT_DIR$/lists.py" />
         <option value="$PROJECT_DIR$/dictionaries.py" />
         <option value="$PROJECT_DIR$/tuples.py" />
+        <option value="$PROJECT_DIR$/set.py" />
       </list>
     </option>
   </component>
@@ -105,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tuples">
+  <component name="RunManager" selected="Python.set">
     <configuration name="dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unuteis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rock-paper-scisor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unuteis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +182,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rock-paper-scisor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.set" />
         <item itemvalue="Python.tuples" />
         <item itemvalue="Python.dictionaries" />
         <item itemvalue="Python.lists" />
         <item itemvalue="Python.list_test" />
-        <item itemvalue="Python.rock-paper-scisor" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +294,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tuples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -300,10 +308,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuples.py">
+    <entry file="file://$PROJECT_DIR$/set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
