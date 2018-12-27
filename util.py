@@ -125,5 +125,33 @@ for temp in celcius:
     fahrenheit.append(((9/5)*temp + 32))
 print(fahrenheit)
 
+##############################################################################
+##############################################################################
+############# REAL PROBLEMS ##################################################
+##############################################################################
+
+print('#### Real Problems ####')
+
+
+# Use for, .split(), and if to create a Statement that will print out words that start with 's':
+st = 'Print only the words that start with s in this sentence'
+for word in st.split(): # split will split each word
+    if word[0].lower() == 's': # checking if first letter of the word starts with s
+        print(word)
+
+
+# Use range() to print all the even numbers from 0 to 10.
+for num in range(0,11,2):
+    print(num)
+
+# Use a List Comprehension to create a list of all numbers between 1 and 50 that are divisible by 3.
+print('\n')
+print([num for num in range(1,51) if num%3 == 0])
+
+
+# Use List Comprehension to create a list of the first letters of every word in the string below:
+st = 'Create a list of the first letters of every word in this string'
+print([word[0] for word in st.split()])
+
 
 
