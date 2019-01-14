@@ -71,6 +71,18 @@ def lesser_two_evens(num1,num2):
 num = lesser_two_evens(2,5)
 print(num)
 
+
+### Another way
+
+def lesser_two_events_new(num1,num2):
+    if num1 % 2 == 0 and num2 % 2 == 0:
+        return min(num1,num2)
+    else:
+        return max(num1,num2)
+
+num_new = lesser_two_events_new(7,5)
+print(num_new)
+
 ###################################################################
 
 def animal_crackers(animal1, animal2):
@@ -104,3 +116,15 @@ ret=make_twenty(21,1)
 print(ret)
 
 ##############################################################################
+
+def has_33(nums):
+    '''This function receives a list of numbers and check if we find 3 and 3 next to each other '''
+    for i in range(0,len(nums)-1):
+        if nums[i] == 3 and nums[i+1] == 3:
+            return True
+    return False
+
+
+result = has_33([3,3,4,5,5,3,])
+print(result)
+
