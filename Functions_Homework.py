@@ -77,3 +77,30 @@ print("Lower case Letters: ", sum(1 for c in message if c.islower()))
 
 #######################################
 
+# Function that takes a list and returns a new list with unique elements
+# Sample List: [1,1,1,1,2.2.2,3,3,3,3,3,4,5]
+# Return List: [1,2,3,4,5]
+
+
+def unique_list(l):
+    # set eleminites all duplicated number, allow only unique values
+    l=set(l)
+    # convert set into list
+    my_list = list(l)
+    print(my_list)
+
+
+unique_list([1,1,1,1,2,2,2,2,2,3,3,3,4,5])
+
+
+###########################################################
+
+# Function multiply all numbers in a list
+
+def multiply(numbers):
+    acum=1
+    for x in numbers:
+        acum=acum*x
+    print(acum)
+
+multiply([2,2,3,2])

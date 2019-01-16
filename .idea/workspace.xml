@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b05a6f24-23f8-457e-9382-0fd3eb82de4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Functions_Homework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nested_statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions_Homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions_Homework.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,19 +75,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nested_statement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
+            <state relative-caret-position="882">
               <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-815">
+            <state relative-caret-position="337">
+              <caret line="105" column="19" lean-forward="true" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/set.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -234,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unuteis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,7 +253,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,10 +286,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Functions_Homework" />
+        <item itemvalue="Python.set" />
         <item itemvalue="Python.nested_statement" />
         <item itemvalue="Python.functions" />
         <item itemvalue="Python.while" />
-        <item itemvalue="Python.util" />
       </list>
     </recent_temporary>
   </component>
@@ -356,13 +363,6 @@
     <entry file="file://$PROJECT_DIR$/bruno_test.py" />
     <entry file="file://$PROJECT_DIR$/list_test.py" />
     <entry file="file://$PROJECT_DIR$/multi_playing.py" />
-    <entry file="file://$PROJECT_DIR$/set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rock-paper-scisor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -433,17 +433,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Homework.py">
+    <entry file="file://$PROJECT_DIR$/set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-815">
+        <state relative-caret-position="270">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nested_statement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="882">
           <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_Homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="105" column="19" lean-forward="true" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
         </state>
       </provider>
     </entry>
