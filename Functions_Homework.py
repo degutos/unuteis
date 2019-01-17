@@ -71,7 +71,7 @@ print(lowercase)
 
 # another way of sum uppercase and lowercase
 
-message = input("Type word: ")
+message = 'This is a simple Test'
 print("Capital Letters: ", sum(1 for c in message if c.isupper()))
 print("Lower case Letters: ", sum(1 for c in message if c.islower()))
 
@@ -104,3 +104,34 @@ def multiply(numbers):
     print(acum)
 
 multiply([2,2,3,2])
+
+
+##############################################################
+
+# Function palindrome, receives a string and return if it's palindrome or not.
+# example of palindrome: helleh, madam, nurses run
+
+def palindrome(s):
+    if s.replace(" ","") == s[::-1].replace(" ",""):
+        return True
+    else:
+        return False
+
+
+print(palindrome('nurses run'))
+
+##############################################################
+
+# Pangrams are words or sentences containing every letter of the alphbet at least once.
+# For example: The quick brown fox jumps over the lazy dog
+# We need `import string` modules
+
+def inspangram(str1, aphabet=string.ascii_lowercase):
+    str1 = str1.replace(" ","")
+    str1 = str1.lower()
+    if aphabet in str1:
+        print('Truee')
+
+
+
+inspangram('The quick brown fox jumps over the lazy dog')
