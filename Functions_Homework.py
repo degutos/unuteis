@@ -36,6 +36,30 @@ boo_result = ran_check(1, 1, 20)
 print(boo_result)
 
 
+#############################################
+
+# Another way of doing the above exercise
+# function that checks whether a number is in a given range
+
+def ran_check2(num, low, high):
+    if num in range(low, high+1):
+        print(f'The number {num} is between your range from {low} to {high}')
+    else:
+        print(f'The number {num} is not between your range from {low} to {high}')
+
+
+
+ran_check2(11,1,10)
+
+####################################
+
+# If we want return just boolean for the above exercise
+def ran_check_bol(num, low, high):
+    return num in range(low, high + 1)
+
+print((ran_check_bol(1,1,10)))
+
+
 ####################################################
 
 # Function that accepts a string and calculate number of upper case and lowe case letters
