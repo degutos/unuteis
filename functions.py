@@ -13,7 +13,7 @@ def pig_latin(word):
     if first_letter in 'aeiou':
         pig_word = word + 'ay'
     else:
-        pig_word = word + first_letter + 'ay'
+        pig_word = word[1:] + first_letter + 'ay'
     return pig_word
 
 pig_word = pig_latin('word')
@@ -22,6 +22,37 @@ print(pig_word)
 
 ###################################################
 
+# Find out if the word dog is in a string
+
+def dog_check(mystring):
+    if 'dog' in mystring.lower():
+        return True
+    else:
+        return False
+
+result = dog_check('the dog run away')
+
+print(result)
+
+print(dog_check('Dogs runs'))
+
+##########################
+
+# better way to compare the above if statement in one line
+print('dog' in 'dog ran away')
+
+##########################
+
+# function with the above better way
+
+def dog_check_better(mystring):
+    return 'dog' in mystring.lower()
+
+
+print(dog_check_better('dog ran away'))
+
+
+###################################################
 # function with no specific number of arguments - *args
 def myfunc(*args):
     print(args)
@@ -128,3 +159,12 @@ def has_33(nums):
 result = has_33([3,3,4,5,5,3,])
 print(result)
 
+
+
+##########################################################################
+
+# Function skyline
+# Function receives a word and returns first caracter lower and second caracter as upper case and so on
+
+def my_func(word):
+    
