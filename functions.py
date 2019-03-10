@@ -132,18 +132,29 @@ print(ret)
 
 ##############################################################################
 
+def animal_crackers2(animal):
+    '''
+    Animal crackers 2 do the same above but receving two words in a single string
+    '''
+    animallist = animal.lower().split()
+    print(animallist)
+    return animallist[0][0] == animallist[1][0]
+
+
+ret = animal_crackers2('Andre anna')
+print(ret)
+
+
+###################################################################
+
 def make_twenty(num1,num2):
     '''MAKES TWENTY: Given two integers, return True if the sum of the integers is 20 or
     if one of the integers is 20. If not, return False
     '''
-    if num1 == 20 or num2 == 20:
-        return True
-    elif num1 + num2 == 20:
-        return True
-    else:
-        return False
+    return num1 == 20 or num2 == 20 or num1 + num2 == 20
 
-ret=make_twenty(21,1)
+
+ret=make_twenty(10,10)
 print(ret)
 
 ##############################################################################
@@ -167,4 +178,34 @@ print(result)
 # Function receives a word and returns first caracter lower and second caracter as upper case and so on
 
 def my_func(word):
-    
+
+##########################################################################
+
+def macdonald(word):
+    '''
+    This function receives a word and Captalize the first and the fourth letter
+    '''
+    firsthalf = word[:3]
+    secondhalf = word[3:]
+    return firsthalf.capitalize() + secondhalf.capitalize()
+
+
+ret = macdonald('macdonald')
+print(ret)
+
+##########################################################################
+
+def master_yoda(text):
+    '''
+    This function receives a phrase and return it reversed. Example: I am home -> home am I
+    '''
+    textlist = text.split()
+    reverse_phrase = textlist[::-1]
+    # using function join to join list in one string again
+    return(' '.join(reverse_phrase))
+
+
+
+ret = master_yoda('I am home')
+print(ret)
+
