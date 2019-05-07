@@ -177,7 +177,7 @@ print(result)
 # Function skyline
 # Function receives a word and returns first caracter lower and second caracter as upper case and so on
 
-def my_func(word):
+#def my_func(word):
 
 ##########################################################################
 
