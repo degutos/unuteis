@@ -163,11 +163,12 @@ def has_33(nums):
     '''This function receives a list of numbers and check if we find 3 and 3 next to each other '''
     for i in range(0,len(nums)-1):
         if nums[i] == 3 and nums[i+1] == 3:
+            # if nums[i:i+2] == [3,3]: # This is another way of doing the same above
             return True
     return False
 
 
-result = has_33([3,3,4,5,5,3,])
+result = has_33([3,3,2,4,5,5,3])
 print(result)
 
 
@@ -187,6 +188,7 @@ def macdonald(word):
     '''
     firsthalf = word[:3]
     secondhalf = word[3:]
+    print(firsthalf)
     return firsthalf.capitalize() + secondhalf.capitalize()
 
 
@@ -202,10 +204,66 @@ def master_yoda(text):
     textlist = text.split()
     reverse_phrase = textlist[::-1]
     # using function join to join list in one string again
-    return(' '.join(reverse_phrase))
+    return ' '.join(reverse_phrase)
 
 
 
 ret = master_yoda('I am home')
 print(ret)
+
+
+
+###################################################################
+
+
+# Function paper doll:
+# This function receives a word and repeat 03 times every letter. Example:
+# paper_doll('Hello') -> 'HHHeeellllllooo'
+
+def paper_doll(word):
+    new_word = ''
+    for letter in word:
+        new_word += letter*3
+    return new_word
+
+
+ret = paper_doll('Hello')
+print(ret)
+
+
+#####################################################################
+
+# Function BlackJack
+# Function receives 03 integers between 1 and 11. If their sum is less than or equal to 21, return
+# their sum. If sum exceeds 21 and there is an eleven, reduce total sum by 10. Finally,
+# if the sum exceeds 21 return 'BUST'
+
+
+def blackjack(my_list):
+    my_sum = sum(my_list)
+    if my_sum > 21:
+        if 11 in my_list:
+            my_sum = my_sum - 10
+        if my_sum > 21:
+            return 'BUST'
+        else:
+            return my_sum
+    else:
+        return my_sum
+
+ret = blackjack([10,5,11])
+print(ret)
+
+# Another way
+def blackjack2(my_list):
+    my_sum = sum(my_list)
+    if my_sum > 21 and 11 in my_list:
+        my_sum = my_sum - 10
+    elif my_sum > 21:
+        return 'BUST'
+    return my_sum
+
+ret = blackjack2([10,10,1])
+print(ret)
+
 
